@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Clipboard card base centered in 66dp zone (canvas 108x108, center 54,54) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,30 C34,26.7 36.7,24 40,24 L68,24 C71.3,24 74,26.7 74,30 L74,80 C74,83.3 71.3,86 68,86 L40,86 C36.7,86 34,83.3 34,80 Z" />
+    <!-- Clip at the top -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M46,21 C46,19.3 47.3,18 49,18 L59,18 C60.7,18 62,19.3 62,21 L62,27 C62,27.6 61.6,28 61,28 L47,28 C46.4,28 46,27.6 46,27 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M51,21 C51,20.4 51.4,20 52,20 L56,20 C56.6,20 57,20.4 57,21 L57,22 C57,22.6 56.6,23 56,23 L52,23 C51.4,23 51,22.6 51,22 Z" />
+    <!-- Top task checkmark row -->
+    <path
+        android:strokeColor="#2563EB"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,42 L46,46 L55,36" />
+    <path
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,41 L66,41" />
+    <!-- Second task checkmark row -->
+    <path
+        android:strokeColor="#2563EB"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,56 L46,60 L55,50" />
+    <path
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,55 L66,55" />
+    <!-- Third task line (pending) -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M43,69 L47,69" />
+    <path
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M52,69 L66,69" />
+</vector>
